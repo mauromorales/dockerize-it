@@ -1,13 +1,27 @@
-## dockerfiles-opensuse-Redis
+dockerfiles-opensuse-redis
+========================
 
-Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.
+opensuse dockerfile for redis
 
-### building image
+To build:
 
-'cd' to your directory with Redis Dockerfile,
-build an image via 'docker build -t name_of_your_redis_image .'
+Copy the sources down -
 
-### running the container
+    # sudo docker build-t <username>/redis .
 
-run container via 'docker run -d -p 6379 name_of_your_redis_image' 
+To run:
+
+    # sudo docker run -d -p 6379 --name redis <username>/nginx
+
+To test:
+
+  check ports:
+
+    # sudo docker port redis 6379
+  
+  and via redis-tools 
+  
+    # redis-cli -h 127.0.0.1 -p <port>
+    redis 127.0.0.1:<port>
+ 
 
