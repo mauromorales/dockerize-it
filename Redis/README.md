@@ -5,7 +5,7 @@ Redis is an open source, BSD licensed, advanced key-value cache and store. It is
 ### building image
 
 'cd' to your directory with Redis Dockerfile,
-build an image via 'docker build -t name_of_your_image .'
+build an image via 'docker build -t name_of_your_redis_image .'
 
 ### running the container
 
