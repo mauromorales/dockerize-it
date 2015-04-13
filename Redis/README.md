@@ -11,7 +11,7 @@ Copy the sources down -
 
 To run:
 
-    # sudo docker run -d -p 6379 --name redis <username>/nginx
+    # sudo docker run -d -p 6379 --name redis <username>/redis
 
 To test:
 
