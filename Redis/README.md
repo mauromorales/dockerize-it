@@ -3,12 +3,9 @@ dockerfiles-opensuse-redis
 
 opensuse dockerfile for redis
 
-To build:
+copy the sources down -
 
-<<<<<<< HEAD
-run container via 'docker run -d -p 6379 ' 
-=======
-Copy the sources down -
+To build:
 
     # sudo docker build -t <username>/redis .
 
@@ -27,7 +24,5 @@ To test:
     # redis-cli -h 127.0.0.1 -p <port>
     redis 127.0.0.1:<port>ping
     PONG
-    
+  
  
->>>>>>> 0abf97e5494358ffd04f9bf6dbf9e42b39255959
-
