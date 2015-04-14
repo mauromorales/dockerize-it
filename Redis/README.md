@@ -7,7 +7,7 @@ To build:
 
 Copy the sources down -
 
-    # sudo docker build-t <username>/redis .
+    # sudo docker build -t <username>/redis .
 
 To run:
 
@@ -22,6 +22,8 @@ To test:
   and via redis-tools 
   
     # redis-cli -h 127.0.0.1 -p <port>
-    redis 127.0.0.1:<port>
+    redis 127.0.0.1:<port>ping
+    PONG
+    
  
 
