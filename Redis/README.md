@@ -4,5 +4,5 @@ Redis is an open source, BSD licensed, advanced key-value cache and store. It is
 
 ### running the container
 
-run container via 'docker run -d -p 6379 <name_of_your_image>' 
+run container via 'docker run -d -p 6379 ' 
 
