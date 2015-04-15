@@ -1,9 +1,7 @@
 dockerfiles-opensuse-redis
 ========================
 
-opensuse dockerfile for redis
-
-copy the sources down -
+OpenSUSE Dockerfile for Redis - open source, advanced key-value cache and store.  
 
 To build:
 
@@ -19,7 +17,7 @@ To test:
 
     # sudo docker port redis 6379
   
-  and via redis-tools 
+  and via redis-cli
   
     # redis-cli -h 127.0.0.1 -p <port>
     redis 127.0.0.1:<port>ping
