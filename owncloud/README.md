@@ -16,8 +16,5 @@ To run:
 # docker run -d -p 80:80 <username>/owncloud
 ```
 
-To test:
-
-```
-open ownCloud http://localhost/owncloud
+To test open ownCloud http://localhost/owncloud
 
