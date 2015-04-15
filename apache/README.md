@@ -7,7 +7,7 @@ OpenSUSE Dockerfile for apache2 - open-source HTTP server for modern operating s
 To build:
 
 ```
-# docker build --rm -t <username>/apache .
+# docker build -t <username>/apache .
 ```
 
 To run: 
