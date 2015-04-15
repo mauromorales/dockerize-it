@@ -1,11 +1,9 @@
 dockerfiles-opensuse-nginx
 ========================
 
-Opensuse dockerfile for nginx
+OpenSUSE dockerfile for nginx
 
 To build:
-
-Copy the sources down -
 
     # docker build -t <username>/nginx .
 
