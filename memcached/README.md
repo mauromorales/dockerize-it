@@ -13,7 +13,7 @@ To build:
 To run: 
 
 ```
-# docker run -d -p 11211:11211 <username>/mongodb
+# docker run -d -p 11211:11211 <username>/memcached
 ```
 
 To test:
