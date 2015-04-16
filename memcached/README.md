@@ -1,7 +1,7 @@
 dockerfiles-opensuse-memcached
 ==============================
 
-OpenSUSE Dockerfile for MongoDB - free & open source, high-performance, distributed memory object caching system.  
+OpenSUSE Dockerfile for Memcached - free & open source, high-performance, distributed memory object caching system.  
 
 
 To build:
