@@ -13,5 +13,5 @@ To build:
 To run: 
 
 ```
-# docker run -it <username>/ruby ipython
+# docker run -it <username>/python ipython
 ```
